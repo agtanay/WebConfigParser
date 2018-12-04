@@ -1,0 +1,10 @@
+Step to run-
+
+•	Open command prompt
+
+•	python filename “filepath”
+
+Blockers-
+
+•	if a directory or subdirectory does not have “web.config” file it will throw an error in the console. Recommend to copy all files in separate folders and run the parser.
+•	If a web.config file has a single tag repeated multiple times parser will throw false positives.
